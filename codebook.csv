@@ -1,0 +1,16 @@
+Column Name,Data Type,Unique Values,Missing Values,Sample Values,Unit (if known)
+step,int64,743,0,"[1, 2, 3, 4, 5]",hours (simulated)
+type,object,5,0,"['PAYMENT', 'TRANSFER', 'CASH_OUT', 'DEBIT', 'CASH_IN']",
+amount,float64,5316900,0,"[9839.64, 1864.28, 181.0, 11668.14, 7817.71]",monetary units
+nameOrig,object,6353307,0,"['C1231006815', 'C1666544295', 'C1305486145', 'C840083671', 'C2048537720']",
+oldbalanceOrg,float64,1845844,0,"[170136.0, 21249.0, 181.0, 41554.0, 53860.0]",monetary units
+newbalanceOrig,float64,2682586,0,"[160296.36, 19384.72, 0.0, 29885.86, 46042.29]",monetary units
+nameDest,object,2722362,0,"['M1979787155', 'M2044282225', 'C553264065', 'C38997010', 'M1230701703']",
+oldbalanceDest,float64,3614697,0,"[0.0, 21182.0, 41898.0, 10845.0, 5083.0]",monetary units
+newbalanceDest,float64,3555499,0,"[0.0, 40348.79, 157982.12, 51513.44, 16896.7]",monetary units
+isFraud,int64,2,0,"[0, 1]","binary flag (0 = no fraud, 1 = fraud)"
+isFlaggedFraud,int64,2,0,"[0, 1]",binary flag (system rule)
+errorOrig,float64,4716888,0,"[0.0, 1353.3600000000001, 7.275957614183426e-12, 5179.9400000000005, 1506.7600000000002]",
+errorDest,float64,3168699,0,"[9839.64, 1864.28, 181.0, 21363.0, 11668.14]",
+sender_inconsistent,bool,2,0,"[False, True]",
+receiver_inconsistent,bool,2,0,"[True, False]",
